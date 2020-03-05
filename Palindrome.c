@@ -6,6 +6,9 @@ int main()
     printf("Enter  the string : ");
     gets(str);
     n=strlen(str);
+    
+     for(i=0;i<n;i++)
+	    str[i]=toupper(str[i]);
  
     for(i=0;i<n/2;i++)  
     {
